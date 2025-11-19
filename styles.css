@@ -1,0 +1,87 @@
+.header{
+  display: flex;
+  justify-content: center;
+  border-bottom: 10px solid rgb(63, 59, 59);
+  padding: 30px;
+  margin-bottom: 60px;
+}
+
+.header span {
+  font-size: 70px;
+  font-weight: 600;
+}
+
+.maincontent .mainstuff span {
+  font-size: 60px;
+  font-family:monospace;
+}
+.maincontent{
+  display: flex;
+  justify-content: center;
+  margin-top: 250px;
+}
+
+.btns {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.btns button{
+  padding-right: 60px;
+  padding-left: 60px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  font-size: 50px;
+  border-radius: 10px;
+}
+
+
+
+/* begin-after  */
+
+
+.ground .Theader {
+display: flex;
+margin-top: 50px;
+}
+
+.pc , .human {
+  flex: 1 0 0;
+}
+
+
+
+.pc ,.human {
+  font-size: 40px;
+  font-weight: 300px;
+  
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.field{
+  display: flex;
+}
+
+
+.ground {
+  display: flex;
+  flex-direction: column;
+  padding :20px;
+
+}
+
+
+.pcarea  {
+  display: flex;
+  font-size: 40px;
+  flex: 1 0 0;
+
+}
+
+
+.humanarea  {
+  font-size: 40px;
+  flex: 1 0 0;
+
+}
