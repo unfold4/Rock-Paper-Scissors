@@ -43,21 +43,22 @@
 
 .ground .Theader {
 display: flex;
-margin-top: 50px;
-}
+margin-top: 30px;
 
-.pc , .human {
-  flex: 1 0 0;
 }
 
 
 
 .pc ,.human {
-  font-size: 40px;
+  display: flex;
+  font-size: 50px;
   font-weight: 300px;
-  
+  flex: 1 0 0;
+  justify-content: center;
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
+
 
 .field{
   display: flex;
@@ -65,23 +66,77 @@ margin-top: 50px;
 
 
 .ground {
-  display: flex;
   flex-direction: column;
-  padding :20px;
 
 }
+
+
+
 
 
 .pcarea  {
   display: flex;
-  font-size: 40px;
-  flex: 1 0 0;
-
+  flex-direction: column;
+  flex: 1 1 0;
 }
 
 
 .humanarea  {
-  font-size: 40px;
-  flex: 1 0 0;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 0;
+  /* align-items:flex-end; */
+}
+
+
+.humanarea span {
+  text-align: center;
+  font-size: 50px;
+
+}
+.humanarea button{
+  
+    flex: 0 1 300px;
+    font-size: 40px;
+}
+
+.humanarea #rock{
+  background-image: url("images_used/rock.png");
+  background-position:left center;
+  background-repeat: no-repeat;
+
+}
+
+.humanarea #paper{
+  background-repeat: no-repeat;
+  background-image: url("images_used/paper.png");
+
+}
+.humanarea #scissors{
+  background-repeat: no-repeat;
+  background-image: url("images_used/scissors.png");
+
+}
+
+
+.pcarea span {
+  margin: 0 auto;
+  font-size: 50px;
+}
+
+.pcarea img , .humanarea img{
+  flex : 0 1 0;
+}
+
+.nxtBox{
+  display: flex;
+  justify-content: center;
+}
+
+.nxtrnd{
+  border-radius: 5px ;
+  border: 1px rgb(0, 0, 0) solid;
+  font-size: 30px;
+  padding: 30px;
 
 }
